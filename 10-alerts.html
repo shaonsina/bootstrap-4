@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bootstrap Practice</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="nav nav-pills mb-4 flex-wrap">
+		<a class="nav-link" href="1-general.html">General</a>
+		<a class="nav-link" href="2-navbar.html">Navbar</a>
+		<a class="nav-link" href="3-navtabs.html">Nav-tabs</a>
+		<a class="nav-link" href="4-buttons.html">Buttons</a>
+		<a class="nav-link" href="5-carousel.html">Carousel</a>
+		<a class="nav-link" href="6-thumbnails.html">Thumbnails</a>
+		<a class="nav-link" href="7-card.html">Card</a>
+		<a class="nav-link" href="8-utilities.html">Utilities</a>
+		<a class="nav-link" href="9-modal-card.html">Modal-Card</a>
+		<a class="nav-link active" href="10-alerts.html">Alerts</a>
+		<a class="nav-link" href="11-forms.html">Forms</a>
+		<a class="nav-link" href="12-pagination.html">Pagination</a>
+		<a class="nav-link" href="13-tables.html">Tables</a>
+		<a class="nav-link" href="14-scrollspy.html">Scrollspy</a>
+	</nav>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<!-- Alerts with heading, dismissible, colors & alert-link -->
+				<h3>Alerts with heading, dismissible, colors & alert-link</h3>
+				<div class="alert alert-primary alert-dismissible text-justify" role="alert">
+					<a class="close" data-dismiss="alert">&times;</a>
+					This is primary alert.
+					<a href="#" class="alert-link">Click Me</a>
+				</div>
+
+				<div class="alert alert-secondary alert-dismissible text-justify" role="alert">
+					<a class="close" data-dismiss="alert">&times;</a>
+					This is secondary alert.
+					<a href="#" class="alert-link">Click Me</a>
+				</div>
+
+				<div class="alert alert-light alert-dismissible text-justify" role="alert">
+					<a class="close" data-dismiss="alert">&times;</a>
+					This is light alert.
+					<a href="#" class="alert-link">Click Me</a>
+				</div>
+
+				<div class="alert alert-dark alert-dismissible text-justify" role="alert">
+					<a class="close" data-dismiss="alert">&times;</a>
+					This is dark alert.
+					<a href="#" class="alert-link">Click Me</a>
+				</div>
+
+				<div class="alert alert-success alert-dismissible text-justify" role="alert">
+					<a class="close" data-dismiss="alert">&times;</a>
+					This is success alert.
+					<a href="#" class="alert-link">Click Me</a>
+				</div>
+
+				<div class="alert alert-danger alert-dismissible text-justify" role="alert">
+					<a class="close" data-dismiss="alert">&times;</a>
+					<h4 class="alert-heading">Well done!</h4>
+					<p>This is danger alert.</p>
+					<hr>
+					<p class="mb-0">This is danger alert.</p>
+					<a href="#" class="alert-link">Click Me</a>
+				</div>
+
+				<div class="alert alert-info alert-dismissible text-justify" role="alert">
+					<a class="close" data-dismiss="alert">&times;</a>
+					<p>This is info alert.</p>
+					<a href="#" class="alert-link">Click Me</a>
+				</div>
+
+				<div class="alert alert-warning alert-dismissible text-justify" role="alert">
+					<a class="close" data-dismiss="alert">&times;</a>
+					<h4 class="alert-heading">Well done!</h4>
+					<hr>
+					<p>This is warning alert.</p>
+					<a href="#" class="alert-link">Click Me</a>
+				</div>
+
+				<div class="alert alert-danger alert-dismissible fade show" role="alert">
+					<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+					<strong>Holy guacamole!</strong> You should check in on some of those fields below.
+				</div>
+			</div>
+
+
+			<div class="col-md-6">
+				<!-- Badges in heading with color -->
+				<h1>Example heading <span class="badge badge-primary">primary</span></h1>
+				<h2>Example heading <span class="badge badge-secondary">secondary</span></h2>
+				<h3>Example heading <span class="badge badge-success">success</span></h3>
+				<h4>Example heading <span class="badge badge-danger">danger</span></h4>
+				<h5>Example heading <span class="badge badge-info">info</span></h5>
+				<h6>Example heading <span class="badge badge-warning">warning</span></h6>
+				<p>Example paragraph <span class="badge badge-light">light</span></p>
+				<button class="btn btn-secondary">Example button <span class="badge badge-dark">dark</span></button>
+				<a>Example anchor <span class="badge badge-primary badge-pill">pill</span></a>
+				<hr>
+
+
+				<!-- progress bar with colors and custom height -->
+				<h3 class="text-center mb-3">progress bar with colors and custom height</h3>
+				<div class="progress mb-2">
+					<div class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+
+				<div class="progress mb-2">
+					<div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
+				</div>
+				<div class="progress mb-2" style="height: 10px;">
+					<div class="progress-bar bg-primary" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<div class="progress mb-2" style="height: 2px;">
+					<div class="progress-bar bg-secondary" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<div class="progress mb-2" style="height: 5px;">
+					<div class="progress-bar bg-dark" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<div class="progress mb-2" style="height: 5px;">
+					<div class="progress-bar bg-light" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<div class="progress mb-2">
+					<div class="progress-bar bg-white" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<div class="progress mb-4">
+					<div class="progress-bar bg-success" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+				</div>
+				<div class="progress mb-2" style="height: 10px;">
+					<div class="progress-bar bg-info" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<div class="progress mb-2" style="height: 5px;">
+					<div class="progress-bar bg-warning" role="progressbar" style="width: 100%;" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<div class="progress">
+					<div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+				</div>
+				<hr>
+
+				<!-- all in one progress -->
+				<div class="progress mb-5">
+					<div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+					<div class="progress-bar progress-bar-striped progress-bar-animated bg-dark" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+					<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+					<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">20%</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- end container -->
+
+	<!-- JavaScript -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/tether.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

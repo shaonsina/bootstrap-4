@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bootstrap Practice</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="nav nav-pills mb-4 flex-wrap">
+		<a class="nav-link" href="1-general.html">General</a>
+		<a class="nav-link" href="2-navbar.html">Navbar</a>
+		<a class="nav-link" href="3-navtabs.html">Nav-tabs</a>
+		<a class="nav-link" href="4-buttons.html">Buttons</a>
+		<a class="nav-link" href="5-carousel.html">Carousel</a>
+		<a class="nav-link" href="6-thumbnails.html">Thumbnails</a>
+		<a class="nav-link" href="7-card.html">Card</a>
+		<a class="nav-link" href="8-utilities.html">Utilities</a>
+		<a class="nav-link active" href="9-modal-card.html">Modal-Card</a>
+		<a class="nav-link" href="10-alerts.html">Alerts</a>
+		<a class="nav-link" href="11-forms.html">Forms</a>
+		<a class="nav-link" href="12-pagination.html">Pagination</a>
+		<a class="nav-link" href="13-tables.html">Tables</a>
+		<a class="nav-link" href="14-scrollspy.html">Scrollspy</a>
+	</nav>
+
+
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<!-- accordions/panels with all styles -->
+				<h3>Accordion with all styles</h3>
+				<div id="accordion" role="tablist" aria-multiselectable="true">
+					<div class="card">
+						<div class="card-header" role="tab" id="headingOne">
+							<a class="text-info" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+								Collapsible Group Item #1
+							</a>
+						</div>
+
+						<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
+							<div class="card-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header" role="tab" id="headingTwo">
+							<a class="text-warning" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+								Collapsible Group Item #2
+							</a>
+						</div>
+						<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
+							<div class="card-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
+
+					<div class="card">
+						<div class="card-header" role="tab" id="headingThree">
+						<a class="text-danger" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+								Collapsible Group Item #3
+							</a>
+						</div>
+						<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
+							<div class="card-body">
+								Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="col-sm-6">
+				<!-- Custom collapse with in -->
+				<h3>Custom collapse with in</h3>
+				<button class="btn btn-info" data-toggle="collapse" data-target="#test">
+					custom collapse
+				</button>
+				<div id="test" class="collapse in">My custom collapse text. My custom collapse text. My custom collapse text. My custom collapse text. My custom collapse text. My custom collapse text. My custom collapse text. My custom collapse text.</div>
+				<hr>
+
+				<!-- modals with all -->
+				<h3>Modals with all</h3>
+
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+					Show modal
+				</button>
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+								Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+								Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+
+								Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+								Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+								Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+
+								Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+								Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+
+								Aenean lacinia bibendum nulla sed consectetur. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
+
+								Cras mattis consectetur purus sit amet fermentum. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+
+								Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Modal with message</button>
+				<!-- Modal with message-->
+				<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">New message</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<form>
+									<div class="form-group">
+										<label for="recipient-name" class="form-control-label">Recipient:</label>
+										<input type="text" class="form-control" id="recipient-name">
+									</div>
+									<div class="form-group">
+										<label for="message-text" class="form-control-label">Message:</label>
+										<textarea class="form-control" id="message-text"></textarea>
+									</div>
+								</form>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Send message</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal">
+					Modal lg
+				</button>
+				<!-- large modals without X button -->
+				<div class="modal fade" id="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-lg" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+							</div>
+							<div class="modal-body">
+								<p>One fine body ...</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<!-- Button trigger modal -->
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#smallModal">
+					Modal sm
+				</button>
+				<!-- small modals without close button -->
+				<div class="modal fade" id="smallModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-sm" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<p>One fine body ...</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+
+
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popover-modal">
+					Modal popover
+				</button>
+				<!-- small modals without close button -->
+				<div class="modal fade" id="popover-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+					<div class="modal-dialog modal-sm" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+							<div class="modal-body">
+								<h5>Popover in a modal</h5>
+								<p>This <a href="#" role="button" class="btn btn-secondary test-popover" title="Popover title" data-content="Popover body content is set in this attribute.">button</a> triggers a popover on click.</p>
+								<hr>
+
+								<h5>Tooltips in a modal</h5>
+								<p>
+									<a class="test-tooltop" href="#" title="Tooltip">This link</a>and
+									<a class="test-tooltop" href="#" title="Tooltip">that link</a>have tooltips on hover.
+								</p>
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-primary">Save changes</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!-- end container -->
+
+	<!-- JavaScript -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/tether.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		$('.test-tooltop').tooltip();
+
+		$('.test-popover').popover();
+	</script>
+</body>
+</html>

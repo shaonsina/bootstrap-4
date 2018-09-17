@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bootstrap Practice</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="nav nav-pills mb-4 flex-wrap">
+		<a class="nav-link active" href="1-general.html">General</a>
+		<a class="nav-link" href="2-navbar.html">Navbar</a>
+		<a class="nav-link" href="3-navtabs.html">Nav-tabs</a>
+		<a class="nav-link" href="4-buttons.html">Buttons</a>
+		<a class="nav-link" href="5-carousel.html">Carousel</a>
+		<a class="nav-link" href="6-thumbnails.html">Thumbnails</a>
+		<a class="nav-link" href="7-card.html">Card</a>
+		<a class="nav-link" href="8-utilities.html">Utilities</a>
+		<a class="nav-link" href="9-modal-card.html">Modal-Card</a>
+		<a class="nav-link" href="10-alerts.html">Alerts</a>
+		<a class="nav-link" href="11-forms.html">Forms</a>
+		<a class="nav-link" href="12-pagination.html">Pagination</a>
+		<a class="nav-link" href="13-tables.html">Tables</a>
+		<a class="nav-link" href="14-scrollspy.html">Scrollspy</a>
+	</nav>
+
+
+	<!-- column ordering-->
+	<div class="container">
+		<div class="row">	
+			<div class="col-lg-2 order-2 order-lg-1">first</div>
+			<div class="col-lg-8 order-1 order-lg-2">second</div>
+			<div class="col-lg-2 order-3 order-lg-3">third</div>
+		</div>
+	</div>
+
+
+	<!-- container-fluid & grid with background & margin-->
+	<div class="container-fluid">
+		<h3 class="text-center">Container-fluid & grid with background & margin</h3>
+		<div class="row">
+			<div class="col-sm-2 bg-primary">col-sm-2</div>
+			<div class="col-sm-2 bg-success">col-sm-2</div>
+			<div class="col-sm-2 bg-warning">col-sm-2</div>
+			<div class="col-sm-2 bg-danger ml-auto">col-sm-2 ml-auto</div>
+			<div class="col-sm-2 bg-info mr-auto">col-sm-2 mr-auto</div>
+		</div>		
+	</div>
+	<hr />
+
+	<!-- Container & grid for all devices with margin & no-gutters -->
+	<div class="container">
+		<h3 class="text-center">Container & grid for all divices with margin & no-gutter</h3>
+		<div class="row no-gutters">
+			<div class="col-sm-2 bg-primary">col-sm-2</div>
+			<div class="col-sm-2 bg-success">col-sm-2</div>
+			<div class="col-sm-2 bg-warning">col-sm-2</div>
+			<div class="col-sm-2 bg-danger ml-auto">col-sm-2 ml-auto</div>
+			<div class="col-sm-2 bg-info mr-auto">col-sm-2 mr-auto</div>
+		</div>	
+	</div>
+	<hr />
+
+	<!-- column with mixed -->	
+	<div class="container">
+		<h3 class="text-center">Column with mixed</h3>
+		<div class="row">
+			<div class="col-2 bg-danger">col-2</div>
+			<div class="col-sm-2 ml-auto bg-success">col-sm-2 ml-auto</div>
+			<div class="col-md-2 ml-auto bg-info">col-md-2 ml-auto</div>
+			<div class="col-lg-2 bg-warning">col-lg-2</div>
+			<div class="col-xl-2 bg-primary">col-xl-2</div>
+		</div>
+	</div>
+	<hr />
+
+	<!-- TYPOGRAPHY -->
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<!-- headdings -->
+				<h1>This is headding 1</h1>
+				<h2>This is headding 2</h2>
+				<h3>This is headding 3</h3>
+				<h4>This is headding 4</h4>
+				<h5>This is headding 5</h5>
+				<h6>This is headding 6</h6>
+				<hr>
+
+				<p class="h1">h1. Bootstrap heading</p>
+				<p class="h2">h2. Bootstrap heading</p>
+				<p class="h3">h3. Bootstrap heading</p>
+				<p class="h4">h4. Bootstrap heading</p>
+				<p class="h5">h5. Bootstrap heading</p>
+				<p class="h6">h6. Bootstrap heading</p>
+				<hr>
+
+				<!-- text-alignment, text-colors & others -->
+				<h3 class="text-center mt-4">Text-alignment, text-colors & others</h3>
+
+				<p class="text-left">This is "TEXT-LEFT" paragraph.</p>
+				<p class="text-center">This is "TEXT-CENTER" paragraph.</p>
+				<p class="text-right">This is "TEXT-RIGHT" paragraph.</p>
+				<p class="text-justify text-success">This is "text-success" & "TEXT-JUSTIFY" paragraph.</p>
+
+				<p class="text-nowrap text-primary">This is "text-primary" & "TEXT-nowrap" paragraph.</p>
+				<p class="text-lowercase text-warning">This is "text-warning" & "TEXT-lowercase" paragraph.</p>
+				<p class="text-uppercase text-danger">This is "text-danger" & "TEXT-uppercase" paragraph.</p>
+				<p class="text-capitalize text-info">This is "text-info" & "TEXT-capitalize" paragraph.</p>
+				<p class="text-capitalize text-light bg-primary">This is "TEXT-light" paragraph.</p>
+				<p class="text-capitalize text-white bg-primary">This is "TEXT-white" paragraph.</p>
+				<p class="text-capitalize text-dark">This is "TEXT-dark" paragraph.</p>
+
+				<p class="lead text-muted">This is "text-muted" & "LEAD" paragraph. This is "LEAD" paragraph.</p>
+				<p class="small text-muted">This is "text-muted" & "small" paragraph. This is "small" paragraph.</p>
+				<p>this is "initialism" <abbr title="World Health Organization" class="initialism">WHO</abbr> was founded in 1948.</p>
+
+				<p class="font-weight-bold">Bold text.</p>
+				<p class="font-weight-normal">Normal weight text.</p>
+				<p class="font-italic">Italic text.</p>
+
+				<pre class="pre-scrollable">This is "pre-scrollable" paragraph. This is "pre-scrollable" paragraph. This is "pre-scrollable" paragraph. This is "pre-scrollable" paragraph.</pre>
+				<hr />
+
+				<!-- blockquote with footer-->
+				<blockquote class="blockquote">
+					<p>This is "BLOCKQUOTE" paragraph.</p>
+					<small>Shaonsina from <cite title="Source Title">Nice Source</cite></small>
+				</blockquote>
+				<hr>
+				<blockquote class="blockquote">
+					<p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+					<footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+				</blockquote>
+			</div>
+
+
+			<div class="col-md-6">
+				<!-- unordered list-->
+				<h3 class="text-center">General unordered list</h3>
+				<ul>
+					<li>List-item</li>
+					<li>List-item
+						<ul>
+							<li>List-item</li>
+							<li>List-item</li>
+							<li>List-item</li>
+							<li>List-item</li>
+						</ul>
+					</li>
+					<li>List-item</li>
+					<li>List-item</li>
+				</ul>
+				<hr />
+
+				<!-- list-unstyled -->
+				<h3 class="text-center">List unstyled</h3>
+				<ul class="list-unstyled">
+					<li>List-item</li>
+					<li>List-item</li>
+					<li>List-item</li>
+					<li>List-item</li>
+				</ul>
+
+				<!-- inline list-->
+				<h3 class="text-center">List inline</h3>
+				<ul class="list-inline">
+					<li class="list-inline-item">List-item</li>
+					<li class="list-inline-item">List-item</li>
+					<li class="list-inline-item">List-item</li>
+					<li class="list-inline-item">List-item</li>
+				</ul>
+
+				<!-- ordered list-->
+				<h3 class="text-center">General ordered list</h3>
+				<ol>
+					<li>List-item</li>
+					<li>List-item</li>
+					<li>List-item</li>
+					<li>List-item</li>
+				</ol>
+
+				<!-- definition list-->
+				<h3 class="text-center">General definition list</h3>
+				<dl>
+					<dt>Definition term</dt>
+					<dd>Definition Details</dd>
+
+					<dt>Definition term</dt>
+					<dd>Definition Details</dd>
+				</dl>
+
+				<!-- definition list with nested-->
+				<h3 class="text-center">Definition list with nested</h3>
+				<dl class="row">
+					<dt class="col-sm-4">Description lists</dt>
+					<dd class="col-sm-8">A description list is perfect for defining terms.</dd>
+					<dt class="col-sm-4">Euismod</dt>
+					<dd class="col-sm-8">Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</dd>
+
+					<dd class="col-sm-8 ml-auto">Donec id elit non mi porta gravida at eget metus.</dd>
+					<dt class="col-sm-4">Malesuada porta</dt>
+					<dd class="col-sm-8">Etiam porta sem malesuada magna mollis euismod.</dd>
+					<dt class="col-sm-4 text-truncate">Truncated term is truncated</dt>
+
+					<dd class="col-sm-8">
+						<dl class="row">
+							<dt class="col-sm-4">Nested definition list</dt>
+							<dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
+						</dl>
+					</dd>
+				</dl>
+			</div>
+		</div>
+	</div><!-- end container -->
+
+<!-- Some extra class -->
+	<div class="jumbotron">
+		<div class="container">
+			<h1 class="display-3">Hello, world!</h1>
+			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+			<hr class="my-4">
+			<p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+			<p class="lead">
+				<a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+			</p>		
+		</div>
+	</div>
+
+	<h1 class="display-1 bg-light">This is "display-1"</h1>
+	<h1 class="display-2 bg-light">This is "display-2"</h1>
+	<h1 class="display-3 bg-light">This is "display-3"</h1>
+	<h1 class="display-4 bg-light">This is "display-4"</h1>
+</body>
+</html>

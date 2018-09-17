@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bootstrap Practice</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<nav class="nav nav-pills mb-4 flex-wrap">
+		<a class="nav-link" href="1-general.html">General</a>
+		<a class="nav-link active" href="2-navbar.html">Navbar</a>
+		<a class="nav-link" href="3-navtabs.html">Nav-tabs</a>
+		<a class="nav-link" href="4-buttons.html">Buttons</a>
+		<a class="nav-link" href="5-carousel.html">Carousel</a>
+		<a class="nav-link" href="6-thumbnails.html">Thumbnails</a>
+		<a class="nav-link" href="7-card.html">Card</a>
+		<a class="nav-link" href="8-utilities.html">Utilities</a>
+		<a class="nav-link" href="9-modal-card.html">Modal-Card</a>
+		<a class="nav-link" href="10-alerts.html">Alerts</a>
+		<a class="nav-link" href="11-forms.html">Forms</a>
+		<a class="nav-link" href="12-pagination.html">Pagination</a>
+		<a class="nav-link" href="13-tables.html">Tables</a>
+		<a class="nav-link" href="14-scrollspy.html">Scrollspy</a>
+	</nav>
+
+	<!-- Navbar with form & navbar-text -->
+	<h3 class="text-center">Navbar with form & navbar-text</h3>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">Navbar</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link" href="#">Features</a>
+				<a class="nav-item nav-link" href="#">Pricing</a>
+				<a class="nav-item nav-link disabled" href="#">Disabled</a>
+			</div>
+
+			<span class="navbar-text mr-auto ml-auto">
+				Navbar text with an inline element
+			</span>
+
+			<form class="form-inline my-2 my-lg-0 ml-auto">
+				<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+	<hr>
+
+	<!-- Navbar with form & dropdown -->
+	<h3 class="text-center">Navbar with form & dropdown</h3>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown link
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item divider" href="#">Action</a>
+							<a class="dropdown-item disabled" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+				</ul>
+
+				<form class="form-inline my-2 my-lg-0 ml-auto">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	<!-- Navbar with dropdown and sticky-top-->
+	<h3 class="text-center">Navbar with dropdown and sticky-top</h3>
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="top:50px;">
+		<div class="container">
+			<a class="navbar-brand" href="#">Navbar</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavfixed" aria-controls="navbarNavfixed" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavfixed">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Features</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Pricing</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown link
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item divider" href="#">Action</a>
+							<a class="dropdown-item disabled" href="#">Another action</a>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+				</ul>
+
+				<form class="form-inline my-2 my-lg-0 ml-auto">
+					<input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+
+	
+	<div class="container-fluid">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius omnis error commodi accusantium obcaecati amet cum cumque similique ex necessitatibus, dolorem quas laboriosam nihil odit accusamus beatae maxime temporibus a.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius omnis error commodi accusantium obcaecati amet cum cumque similique ex necessitatibus, dolorem quas laboriosam nihil odit accusamus beatae maxime temporibus a.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius omnis error commodi accusantium obcaecati amet cum cumque similique ex necessitatibus, dolorem quas laboriosam nihil odit accusamus beatae maxime temporibus a.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius omnis error commodi accusantium obcaecati amet cum cumque similique ex necessitatibus, dolorem quas laboriosam nihil odit accusamus beatae maxime temporibus a.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius omnis error commodi accusantium obcaecati amet cum cumque similique ex necessitatibus, dolorem quas laboriosam nihil odit accusamus beatae maxime temporibus a.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius omnis error commodi accusantium obcaecati amet cum cumque similique ex necessitatibus, dolorem quas laboriosam nihil odit accusamus beatae maxime temporibus a.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius omnis error commodi accusantium obcaecati amet cum cumque similique ex necessitatibus, dolorem quas laboriosam nihil odit accusamus beatae maxime temporibus a.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius omnis error commodi accusantium obcaecati amet cum cumque similique ex necessitatibus, dolorem quas laboriosam nihil odit accusamus beatae maxime temporibus a.</p>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius omnis error commodi accusantium obcaecati amet cum cumque similique ex necessitatibus, dolorem quas laboriosam nihil odit accusamus beatae maxime temporibus a.</p>
+	</div>
+
+	<!-- JavaScript -->
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/tether.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
